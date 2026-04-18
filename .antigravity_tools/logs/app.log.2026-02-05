@@ -1,0 +1,41 @@
+2026-02-05T18:55:20.727384305+03:00  INFO antigravity_tools_lib::modules::logger: Log system initialized (Console + File persistence)
+2026-02-05T18:55:38.596920965+03:00  INFO antigravity_tools_lib: Setup starting...
+2026-02-05T18:55:38.596993410+03:00  INFO antigravity_tools_lib: Linux: Applied transparent window workaround
+2026-02-05T18:55:39.256486446+03:00  INFO antigravity_tools_lib: Tray created
+2026-02-05T18:55:39.271392587+03:00  INFO antigravity_tools_lib: Management API integrated into main proxy server (port 8045)
+2026-02-05T18:55:39.631861523+03:00  INFO antigravity_tools_lib::modules::logger: Smart Warmup Scheduler started. Monitoring quota at 100%...
+2026-02-05T18:55:39.758504943+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:55:42.737875167+03:00  INFO antigravity_tools_lib::constants: User-Agent initialized version=1.16.5 source=RemoteAPI
+2026-02-05T18:55:42.926381093+03:00  INFO antigravity_tools_lib::proxy::server: 请求体大小限制: 100 MB
+2026-02-05T18:55:42.929586335+03:00  INFO antigravity_tools_lib::proxy::server: 反代服务器启动在 http://127.0.0.1:8045
+2026-02-05T18:55:42.929688673+03:00  INFO antigravity_tools_lib::proxy::config: [Thinking-Budget] Global config initialized: mode=Auto, custom_value=24576
+2026-02-05T18:55:42.929706795+03:00  INFO antigravity_tools_lib: Admin server (port 8045) started successfully
+2026-02-05T18:55:42.936001677+03:00  INFO antigravity_tools_lib::proxy::proxy_pool: Starting proxy pool health check loop...
+2026-02-05T18:55:55.318833584+03:00  INFO antigravity_tools_lib::modules::logger: Listing accounts...
+2026-02-05T18:55:55.318850942+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:55:55.345083353+03:00  INFO antigravity_tools_lib::modules::logger: Starting batch refresh of all account quotas (Concurrent mode, max: 5)
+2026-02-05T18:55:55.345458899+03:00  INFO antigravity_tools_lib::modules::logger: Listing accounts...
+2026-02-05T18:55:55.345498315+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:55:55.345955118+03:00  INFO antigravity_tools_lib::modules::logger: Batch refresh completed: 0 success, 0 failed, took: 0ms
+2026-02-05T18:55:55.346076682+03:00  INFO antigravity_tools_lib::modules::logger: Listing accounts...
+2026-02-05T18:55:55.346236506+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:55:55.359801070+03:00  INFO antigravity_tools_lib::modules::logger: Backend Command: get_current_account called
+2026-02-05T18:55:55.359827143+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:55:55.359830579+03:00  INFO antigravity_tools_lib::modules::logger:    No current account set
+2026-02-05T18:55:56.124457345+03:00  INFO antigravity_tools_lib::modules::logger: Listing accounts...
+2026-02-05T18:55:56.124486223+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:55:57.439136244+03:00  INFO antigravity_tools_lib::modules::logger: 收到前端触发的更新检查请求
+2026-02-05T18:55:57.637554206+03:00  INFO antigravity_tools_lib::modules::logger: Checking for updates via GitHub API...
+2026-02-05T18:55:58.090276213+03:00  INFO antigravity_tools_lib::modules::logger: New version found (API): 4.1.4 (Current: 4.1.1)
+2026-02-05T18:56:04.639148648+03:00  INFO antigravity_tools_lib::modules::logger: Configuration updated, refreshing tray menu
+2026-02-05T18:56:04.875439857+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:56:17.630728040+03:00  INFO antigravity_tools_lib::modules::logger: Listing accounts...
+2026-02-05T18:56:17.630742587+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:56:19.008154945+03:00  INFO antigravity_tools_lib::modules::logger: Listing accounts...
+2026-02-05T18:56:19.008170973+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:56:19.008183+03:00  INFO antigravity_tools_lib::modules::logger: Backend Command: get_current_account called
+2026-02-05T18:56:19.008188771+03:00  WARN antigravity_tools_lib::modules::logger: Account index file not found
+2026-02-05T18:56:19.008191007+03:00  INFO antigravity_tools_lib::modules::logger:    No current account set
+2026-02-05T19:04:10.041866094+03:00  INFO antigravity_tools_lib::proxy::server: Axum server 停止信号已发送
+2026-02-05T19:04:10.060718845+03:00  INFO antigravity_tools_lib::proxy::server: 反代服务器停止监听
+2026-02-05T19:04:10.384924336+03:00  INFO antigravity_tools_lib: Application exiting, cleaning up background tasks...
